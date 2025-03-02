@@ -8,17 +8,12 @@ import th.tamkungz.sdvf.SdvfMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class SdvfModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SdvfMod.MODID);
 	public static final RegistryObject<CreativeModeTab> STARDEW_VALLEY_FOOD = REGISTRY.register("stardew_valley_food",
@@ -105,17 +100,4 @@ public class SdvfModTabs {
 				tabData.accept(SdvfModItems.SQUID_INK_RAVIOLI.get());
 				tabData.accept(SdvfModItems.SUPER_JOJA_COLA.get());
 			}).withSearchBar().build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
-		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(SdvfModBlocks.STARDEW_GRASS.get().asItem());
-			tabData.accept(SdvfModBlocks.STERDEW_UNDERGROUND.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(SdvfModBlocks.GRASS_BLOCK.get().asItem());
-		}
-	}
 }

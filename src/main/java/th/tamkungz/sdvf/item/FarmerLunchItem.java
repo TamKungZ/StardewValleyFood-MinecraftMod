@@ -17,7 +17,7 @@ import java.util.List;
 
 public class FarmerLunchItem extends Item {
 	public FarmerLunchItem() {
-		super(new Item.Properties().stacksTo(16).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.5f).build()));
+		super(new Item.Properties().stacksTo(16).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.9f).build()));
 	}
 
 	@Override

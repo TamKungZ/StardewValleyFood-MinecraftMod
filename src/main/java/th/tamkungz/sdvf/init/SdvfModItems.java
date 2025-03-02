@@ -91,15 +91,10 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.BlockItem;
 
 public class SdvfModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, SdvfMod.MODID);
-	public static final RegistryObject<Item> STARDEW_GRASS = block(SdvfModBlocks.STARDEW_GRASS);
-	public static final RegistryObject<Item> STERDEW_UNDERGROUND = block(SdvfModBlocks.STERDEW_UNDERGROUND);
-	public static final RegistryObject<Item> GRASS_BLOCK = block(SdvfModBlocks.GRASS_BLOCK);
 	public static final RegistryObject<Item> FRIED_EGG = REGISTRY.register("fried_egg", () -> new FriedEggItem());
 	public static final RegistryObject<Item> OMELET = REGISTRY.register("omelet", () -> new OmeletItem());
 	public static final RegistryObject<Item> SALAD = REGISTRY.register("salad", () -> new SaladItem());
@@ -181,8 +176,4 @@ public class SdvfModItems {
 	public static final RegistryObject<Item> TROPICAL_CURRY = REGISTRY.register("tropical_curry", () -> new TropicalCurryItem());
 	public static final RegistryObject<Item> SQUID_INK_RAVIOLI = REGISTRY.register("squid_ink_ravioli", () -> new SquidInkRavioliItem());
 	public static final RegistryObject<Item> SUPER_JOJA_COLA = REGISTRY.register("super_joja_cola", () -> new SuperJojaColaItem());
-
-	private static RegistryObject<Item> block(RegistryObject<Block> block) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
-	}
 }

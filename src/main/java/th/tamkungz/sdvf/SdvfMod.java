@@ -13,9 +13,9 @@
  */
 package th.tamkungz.sdvf;
 
+import th.tamkungz.sdvf.init.SdvfModVillagerProfessions;
 import th.tamkungz.sdvf.init.SdvfModTabs;
 import th.tamkungz.sdvf.init.SdvfModItems;
-import th.tamkungz.sdvf.init.SdvfModBlocks;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -51,11 +51,11 @@ public class SdvfMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		SdvfModBlocks.REGISTRY.register(bus);
-
 		SdvfModItems.REGISTRY.register(bus);
 
 		SdvfModTabs.REGISTRY.register(bus);
+
+		SdvfModVillagerProfessions.PROFESSIONS.register(bus);
 
 	}
 
@@ -87,4 +87,13 @@ public class SdvfMod {
 			workQueue.removeAll(actions);
 		}
 	}
+
+	//@Mod.EventHandler
+	//public void setup(FMLCommonSetupEvent event) {
+	//    StructurePoolRegistry.register(
+	//        new ResourceLocation("minecraft:village/plains/houses"),
+	//        new ResourceLocation("sdvf:kitchen"), // Your structure
+	//        10 // Weight
+	//    );
+	//}
 }
