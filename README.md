@@ -2,7 +2,7 @@
 
 **Minecraft Version Support:** 1.16.5, 1.17.1, 1.18.2, 1.19.2, 1.19.4, 1.20.1
 
-![Stardew Valley Food](https://legacy.curseforge.com/minecraft/mc-mods/stardew-valley-food)
+![image](https://github.com/user-attachments/assets/573dffea-a638-40a5-9817-ad3edace0d41)
 
 ## Overview
 
@@ -13,7 +13,6 @@ Inspired by the cherished farming game, this mod offers a wide range of dishes, 
 ### Features
 
 - A diverse menu of foods inspired by Stardew Valley.
-- Integration with popular mods: **Farmer's Delight**, **Nether's Delight**, and **Crabber's Delight**.
 - Multi-language support: English, Chinese, Japanese, Russian.
 
 ### Important Notice
@@ -22,14 +21,43 @@ Inspired by the cherished farming game, this mod offers a wide range of dishes, 
 
 ## Version Information
 
-### Current Version: 0.3.0 Alpha (Farmer's Delight)
-**Release Date:** August 31, 2024
+### Stardew Valley Food - Version 0.3.1 Update
 
-This is an alpha release still under testing, so you may encounter bugs or other issues. If you prefer a more stable experience, consider using version `0.2.5 Pre Better Version` instead.
+This is a major update, with significant changes and improvements.
 
-#### Changes in 0.3.0 Alpha:
-- Added language support: English, Chinese, Japanese, Russian.
-- New compatibility with **Farmer's Delight**, **Nether's Delight**, and **Crabber's Delight** mods.
+**Summary of Changes**
+- Merged all (food).java files into a single file for better maintainability.
+Tooltips are now translatable.
+- Fully migrated from MCreator to MDK, preparing for future updates.
+- New Effect
+
+**Fabric Update**
+- New Item: Mail can send you random Stardew Food.
+- Due to Villager Professions issues in 1.20.1 Fabric, I removed the Trade system and replaced it with mail from Grandpa.
+
+**Previous Versions:**
+### Stardew Valley Food - Version 0.3.0 Release
+
+This update focused on shifting the mod’s gameplay from crafting food to purchasing it from Villagers. The mod also began transitioning from Forge to Fabric and moving from MCreator to MDK for future development.
+
+**Summary of Changes**
+- Pre-converting from Forge to Fabric.
+- Overhauled Villager Trader Food System (Food Vendor).
+- Migrated from MCreator to MDK.
+- General project cleanup.
+- Preparing support for Minecraft 1.20.4 and 1.21.x.
+
+**Breaking Changes & Notices**
+- Mod ID changed from stardewvalley_food to sdvf (backup your saves).
+- Recipe crafting removed due to Farmer’s Delight compatibility issues.
+- Gameplay now focuses on purchasing food from Villagers instead of crafting.
+
+**Fixes & Improvements**
+- Fixed food name issues.
+- Villagers now sell two random food items when taking a profession from a furnace.
+
+**Coming Next**
+- New structure: Food store (Planned for 0.3.2).
 
 ## Installation
 
@@ -49,4 +77,4 @@ This mod is a fan-made creation and is not affiliated with or endorsed by Concer
 
 ## Feedback & Bug Reports
 
-Please report any bugs or issues on the [GitHub Issues](https://github.com/your-repo/issues) page. Your feedback helps improve the mod!
+Please report any bugs or issues on the [GitHub Issues](https://github.com/TamKungZ/StardewValleyFood-MinecraftMod/issues) page. Your feedback helps improve the mod!
