@@ -2,6 +2,8 @@
 
 **Minecraft Version Support:** 1.16.5, 1.17.1, 1.18.2, 1.19.2, 1.19.4, 1.20.1
 
+This is a fan-made mod. All rights to [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) belong to [ConcernedApe](https://x.com/concernedape).
+
 ![image](https://github.com/user-attachments/assets/573dffea-a638-40a5-9817-ad3edace0d41)
 
 ## Overview
