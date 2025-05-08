@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "group": "bdie",
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "id": "sdvf:fried_egg"
+  },
+  "experience": 15,
+  "cookingtime": 300
+}

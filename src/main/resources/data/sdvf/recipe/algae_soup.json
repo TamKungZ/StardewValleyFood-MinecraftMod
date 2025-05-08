@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bdie",
+  "category": "misc",
+  "pattern": [
+    " K ",
+    "CMC",
+    " B "
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:dried_kelp"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    },
+    "M": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "sdvf:algae_soup",
+    "count": 2
+  }
+}

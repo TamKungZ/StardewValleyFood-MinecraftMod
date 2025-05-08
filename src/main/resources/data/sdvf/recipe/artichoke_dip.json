@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bdie",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "pamhc2crops:artichokeitem"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "sdvf:artichoke_dip",
+    "count": 1
+  }
+}

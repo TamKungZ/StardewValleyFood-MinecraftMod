@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bdie",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:bread"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "sdvf:lucky_lunch"
+  }
+}

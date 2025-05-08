@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bdie",
+  "category": "misc",
+  "pattern": [
+    "CS"
+  ],
+  "key": {
+    "C": {
+      "item": "pamhc2crops:cranberryitem"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "id": "sdvf:cranberry_candy",
+    "count": 2
+  }
+}

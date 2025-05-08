@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:smoking",
+  "group": "bdie",
+  "category": "misc",
+  "ingredient": [
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "id": "sdvf:fried_mushroom"
+  },
+  "experience": 15,
+  "cookingtime": 200
+}

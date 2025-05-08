@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bdie",
+  "category": "misc",
+  "pattern": [
+    " H ",
+    " B ",
+    " R "
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:beetroot_seeds"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "R": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "id": "sdvf:roasted_hazelnuts",
+    "count": 2
+  }
+}

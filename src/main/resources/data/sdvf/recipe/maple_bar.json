@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bdie",
+  "category": "misc",
+  "pattern": [
+    " H ",
+    "BS ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "H": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result": {
+    "item": "sdvf:maple_bar",
+    "count": 1
+  }
+}

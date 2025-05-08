@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bdie",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "PEP",
+    " B "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "P": {
+      "item": "minecraft:poppy"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "id": "sdvf:poppyseed_muffin",
+    "count": 2
+  }
+}

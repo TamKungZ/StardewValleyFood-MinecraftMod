@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bdie",
+  "category": "misc",
+  "ingredient": {
+    "item": ""
+  },
+  "pattern": [
+    "JS"
+  ],
+  "key": {
+    "J": {
+      "item": "pamhc2foodcore:juiceritem"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "id": "sdvf:super_joja_cola",
+    "count": 1
+  }
+}
